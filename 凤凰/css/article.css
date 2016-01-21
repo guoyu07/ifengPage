@@ -1,0 +1,55 @@
+div.left_aside{
+    width:221px;
+    float: left;
+    border: 1px solid #dddddd;
+    margin-top: 10px;
+    z-index: 2;
+}
+div.center_asid{
+    width: 400px;
+    float: left;
+}
+div.left_aside h4{
+    float: left;
+    padding: 10px;
+}
+
+div.left_aside img{
+    float: right;
+    padding: 10px;
+}
+div.left_aside .message li:last-child{
+    border-bottom: 1px solid #dddddd;
+    padding-bottom: 8px;
+}
+div.left_aside .message:last-child li{
+    border-bottom: none;
+}
+div.left_aside .message:last-child{
+    border-bottom: none;
+}
+div.left_aside .message h4 a {
+    font-size: 14px;
+    font-weight: 100;
+    color: #333333;
+    text-align: center;
+}
+div.left_aside .message h4 a:hover{
+    color: #ff0000;
+    text-decoration: underline;
+}
+div.left_aside .message .newspaper{
+    padding: 10px;
+}
+div.left_aside .message .newspaper li a,span{
+    font-size: 12px;
+}
+div.left_aside .message .newspaper li img{
+    float: left;
+}
+div.article .ads2{
+    clear: both;
+    width: 221px;
+    margin: 820px 15px 5px 5px;
+
+}

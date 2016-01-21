@@ -1,0 +1,141 @@
+div.notice{
+    float: left;
+    width: 370px;
+    height:auto;
+    position:relative;
+}
+div.notice-tit{
+    width:370px ;
+    float: left;
+    font-size: 12px;
+    margin:20px 0px 0px 0px;
+}
+div.notice-tit img{
+    float: right;
+    padding-right: 30px;
+}
+div.notice-tit li{
+    float: left;
+    padding:0px 10px ;
+}
+div.notice-tit li:first-child{
+    border-right: 1px solid #dddddd;
+}
+div.notice-con{
+    position:absolute;
+    left: 40px;
+    top: 60px;
+
+}
+div.notice-con .mod ul li{
+    list-style-type: disc;
+    font-size: 14px;
+    line-height: 30px;
+    color: #004276;
+}
+div.notice-con .mod ul li:first-child{
+    font-weight: bold;
+    font-size: 18px;
+    list-style-type: none;
+}
+
+div.notice-con .mod ul li a{
+    color:#004276 ;
+}
+div.notice-con .mod ul li a:hover{
+    color: #ff0000;
+}
+div.right_aside {
+    float: right;
+    width: 389px;
+    height: auto;
+    margin-top: 20px;
+    overflow: hidden;
+    position: relative;
+}
+div.right_aside .information{
+    float: right;
+    width: 386px;
+    height:auto;
+    border:1px solid #dddddd;
+}
+div.right_aside .information ul li{
+    float: left;
+    height: 28px;
+    border-right: 1px solid #dddddd;
+}
+div.right_aside .information ul li:hover{
+    background-color: #ff4444;
+
+}
+div.right_aside .information ul li:last-child{
+    border-right: none;
+
+}
+div.right_aside .information ul li a{
+    padding: 12px 5px 5px 5px;
+    vertical-align: middle;
+    font-size: 16px;
+    color: #333;
+}
+div.right_aside .information ul li a:hover{
+    color: #FFFFFF;
+    text-decoration: none;
+}
+div.right_aside .photo{
+    height: auto;
+    width: 3501px;
+
+}
+div.right_aside .photo .photo_play li img{
+    width: 389px;
+    height: 215px;
+}
+.photo_li{
+    width: 146px;
+    float: left;
+}
+.photo_li ul li img{
+    dispay:block;
+    margin-top:10px ;
+}
+.art_li{
+    width: 243px;
+    float: right;
+}
+.art_li ul li {
+    margin-top:10px ;
+    font-size: 14px;
+    line-height: 14px;
+}
+.last_news{
+    width: 389px;
+    height:auto;
+   float: left;
+    margin-top: 20px;
+    font-size: 14px;
+    line-height: 25px;
+}
+.last_news ul li img{
+    margin-top: 5px;
+}
+.box{
+    width: 380px;
+    margin-top: 5px;
+    padding-left: 5px;
+    border: 1px solid #dddddd;
+}
+div.copyright{
+    border-top: 2px solid #c22;
+    width: 1000px;
+    height: auto;
+    margin: 0px auto;
+    float: left;
+    margin: 20px 0px 0px 175px;
+    background-color: rgba(200, 222, 255, 0);
+    font-size: 13px;
+}
+div.copyright ul li{
+    padding-left: 60px;
+    display: inline;
+}
